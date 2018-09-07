@@ -81,12 +81,12 @@ h2 {
 #portrait {
     width: 20%;
     height: 20%;
-    max-width: 206px;
-    /* min-width: 180px; */
-    min-width: 103px;
+    /* max-width: 206px; */
+    min-width: 180px;
+    /* min-width: 103px; */
     max-height: 341px;
-    /* min-height: 296px; */
-    min-height: 170px;
+    min-height: 296px;
+    /* min-height: 170px; */
     float: left;
     margin: 20px 22px 20px 0px;
 }
@@ -181,12 +181,14 @@ footer {
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
+        margin-bottom: .5em;
     }
 
     
     header, #links {
         width: 100%;
         padding: 0;
+        height: 52%;
     }
 
     section {
@@ -198,17 +200,30 @@ footer {
         padding-left: 5%;
         padding-right: 5%;
         width: 80%;
+        /* min-width: 238px; */
     }
 
     #portrait {
-        margin: 10px;
+        margin: 10%;
     }
-    /* nav {
-        float: left;
-        margin: auto;
-    } */
+
+    p {
+        margin: 10%;
+    }
+    nav {
+        /* float: left; */
+        float: clear;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+        text-align: center;
+        /* height: 3em; */
+        margin-bottom: 1em;
+    }
     #links {
         /* max-width: 480px; */
+        /* padding: 5%; */
         margin: 0;
     }
 }
